@@ -1,0 +1,17 @@
+/*
+ * This is is imported by virtue of "sass.var" in "app.json".
+ */
+
+$enable-font-awesome: dynamic(true);
+
+.green:before {
+	color: #81cb31;
+}
+
+.red:before {
+	color: #dd6550;
+}
+
+.yellow:before {
+	color: #ffc839;
+}

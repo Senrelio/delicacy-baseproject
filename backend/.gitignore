@@ -1,0 +1,17 @@
+/bin/
+.idea/$PRODUCT_WORKSPACE_FILE$
+.idea/.gitignore
+.idea/.name
+.idea/artifacts/
+.idea/codeStyles/
+.idea/compiler.xml
+.idea/dataSources.xml
+.idea/misc.xml
+.idea/modules.xml
+.idea/vcs.xml
+.vscode/
+lib/
+out/
+pom.xml
+target/
+/target/

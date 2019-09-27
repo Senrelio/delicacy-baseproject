@@ -1,0 +1,209 @@
+.green:before {
+	color: #81cb31;
+}
+
+.red:before {
+	color: #dd6550;
+}
+
+.yellow:before {
+	color: #ffc839;
+}
+
+.black:before {
+	color: #ffffff;
+}
+
+.navy:before {
+	color: #000080;
+}
+
+.cell-editing-delete-row:before {
+	font: 18px/1 FontAwesome;
+	color: #dd6550;
+	content: "\f056"
+}
+
+.toolbarborder {
+	border-top: solid;
+	border-width: 1px !important;
+}
+
+.forgetPasswords {
+	color: white;
+	height: 32px !important;
+	float: right !important;
+	margin-right: 20px;
+	font-size: 14px !important;
+	margin-top: 7px;
+}
+
+/* 锟侥憋拷锟斤拷锟斤拷锟斤拷锟绞� */
+.inputCls {
+	height: 45px;
+	width: 350px;
+	border-radius: 4px;
+	padding: 4px 8px;
+	border: none;
+}
+.comCls{
+	background:red!important;
+}
+.tabFocusCls{
+	background:red!important;
+}
+/*  锟斤拷钮锟斤拷锟斤拷式 */
+.buttonCls {
+	border: 0;
+	text-align: center;
+	width: 350px;
+	height: 45px;
+	background-color: rgb(255, 152, 0);
+	border-radius: 4px;
+	font-size: 16px;
+	color: rgb(255, 255, 255);
+	letter-spacing: 5px;
+	cursor:pointer;
+}
+/* text锟斤拷锟斤拷锟斤拷锟绞� */
+.textField{
+	border: 1px solid #D9D9D9;
+	border-radius:4px;
+	width:350px;
+}
+/* text label锟斤拷式 */
+.textLabel{
+	color:#101010;
+	font-size:14px;
+	line-height:36px;
+}
+.boxLabel{
+	color:#999!important;
+	font-size:18px;
+	margin-left:10px;
+}
+/* 锟斤拷锟斤拷锟� */
+.requiredIcon{
+	color:red; 
+	font-weight:bold;
+	margin:0 5px 0 10px;
+}
+/* 锟斤拷锟斤拷锟斤拷锟斤拷锟� */
+.textInputAttention {
+	line-height: 28px;
+	color: rgba(153, 153, 153, 1);
+	font-size: 14px;
+	letter-spacing: 1px;
+	font-family: SourceHanSansSC-regular;
+}
+
+/* .x-form-trigger-wrap-default {
+	border-width: 0px !important;
+} */
+
+.fieldBody {
+	min-width: inherit !important;
+	max-width: inherit !important;
+}
+
+#login .x-tab.x-tab-default{
+	    background: none;
+   /*  border-bottom: 2px solid #FF9800; */
+    text-align: center;
+    height: 45px!important;
+}
+#login .x-tab.x-tab-active.x-tab-default{
+	    background: none;
+    border-bottom: 2px solid #FF9800;
+    text-align: center;
+    height: 45px!important;
+}
+#login .x-tab-bar-plain .x-tab.x-tab-default .x-tab-inner-default{
+	    color: #fff;
+    font-size: 16px;
+}
+#login .x-tab-bar-plain .x-tab.x-tab-active.x-tab-default .x-tab-inner-default{
+	    color: #FF9800;
+    font-size: 16px;
+}
+#register .x-tab-bar-default{
+	background-color:#F2F2F2!important;
+}
+#register .x-tab-inner-default{
+	color:#333;
+	font-size: 16px;
+}
+#register .x-tab.x-tab-active.x-tab-default .x-tab-inner-default {
+    color: #1296DB;
+}
+#register .x-tab-default{
+	text-align:center;
+	    height: 65px;
+	    width:235px;
+}
+#register .x-tab-bar-horizontal > .x-tab-bar-body-default {
+    min-height: 65px;
+}
+#register .x-tab-bar-default-top > .x-tab-bar-body-default{
+	padding:0;
+}
+#register .x-tab-over.x-tab-default{
+	border:none;
+	background-color:rgba(242,242,242,1)!important;
+}
+#register .x-tab-active.x-tab-over.x-tab-default{
+	border:none;
+	background:#fff!important;
+}
+#register .x-keyboard-mode .x-tab-focus.x-tab-defaule{
+	outline:none!important;
+}
+#register .x-keyboard-mode .x-tab-focus.x-tab-default{
+outline:none!important;
+outline-width:0!important;
+}
+
+.my-icon-class{
+width:16px!important;
+height:16px!important;
+background-size: cover!important;
+vertical-align: middle!important;
+}
+
+.my-thumbnail-item {
+    float: left;
+    width: 150px;
+    height: auto;
+    margin: 0 30px;
+    cursor: pointer;
+}
+
+.my-thumbnail-text {
+    text-align: center;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
+.my-personalmange-myapply {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float:left;
+    text-align:center;
+    width:180px;
+    height:251px;
+    margin: 12px 12px;
+    border:1px solid #d0d0d0;
+    border-radius:5px
+}
+
+.my-personalmanage-empty{
+	font-weight:bold;
+	text-align:center;
+	vertical-align: middle;
+	margin-top:150px;
+}
+.my-personalmanage-empty p{
+	font-size:14px;
+	color:#999;
+}
