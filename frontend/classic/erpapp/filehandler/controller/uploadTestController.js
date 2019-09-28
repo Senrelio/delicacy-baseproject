@@ -17,9 +17,10 @@ Ext.define('erp.uploadtest.view.uploadTestController', {
                 body: formData
             }).then(
                 response => response.json(),
-                (function () {
-                    console.log("response")
-                })()
+            ).then(
+                success => console.log(success)
+            ).then(
+                error => console.log(error)
             )
         };
         upload();

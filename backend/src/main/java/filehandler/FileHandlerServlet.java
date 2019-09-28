@@ -19,6 +19,7 @@ import java.util.List;
 public class FileHandlerServlet extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        resp.addHeader("Access-Control-Allow-Origin", "*");
         boolean flagMultipart = ServletFileUpload.isMultipartContent(req);
         if (flagMultipart) {
             FileItemFactory factory = new DiskFileItemFactory();
@@ -38,6 +39,7 @@ public class FileHandlerServlet extends HttpServlet {
                         }
                         File uploadedFile = new File(path + "/" + filename);
                         System.out.println(uploadedFile.getAbsolutePath());
+
                         item.write(uploadedFile);
                     }
                 }
